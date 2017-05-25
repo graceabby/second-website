@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700');
 
 * {
 	box-sizing:border-box;
@@ -7,6 +8,13 @@
 
 body {
 	background-color: #fff5d6;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+h2 {
+	background-color: #fff5d6;
+	margin: 5px 0px; /* margin gives you space between two elements (outside)*/
+	padding: 5px; /*padding gives you space within the elements (inside)*/
 }
 
 nav ul {
@@ -67,16 +75,26 @@ nav a:hover {
 	padding: 10px;
 	margin: 10px;
 }
-h2 {
-	text-align: center;
+
+/* These are Utility Classes 
+=================================================== */
+.center-text {
+	text-align:center;
 }
 
+.text-30 {
+	margin: 10px 70px 10px 70px;
+	list-style: none;
+	font-size: 20px;
+	font-family: comic;
+}
 
-
-
-
-
-
+.about-content {
+	background-color: #ff9b9b;
+	padding: 10px;
+	margin: 10px 25px 10px 25px;
+	font-family: times;
+}
 
 
 
