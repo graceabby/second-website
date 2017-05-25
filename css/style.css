@@ -1,0 +1,50 @@
+
+* {
+	box-sizing:border-box;
+	padding: 0; /* no pdding unless otherwise stated in this document*/
+	margin: 0; /* no margin unless stated otherwise in this document*/
+}	
+
+body {
+	background-color: #fff5d6;
+}
+
+nav ul {
+	padding: 10px; /* padding is space around the box. If you give it one value then it applies that value to all sides
+	If you give it twp va;ues then the first value is for the top and bottom, second vale is for the left and right.
+	If you give the padding value four values then it appplies the value clockwise. 1st to the top, 2nd right
+	3rd to the bpttom, and 4th to the left.*/
+	overflow: auto;
+	background-color: #ff9b9b;
+	list-style: none; /* This takes off the bullet points of list items (li) 
+	in the unordered list (ul)*/
+}
+
+nav li {
+	float: left;
+	width: 33.33%; /* targets the links withing the nav and spaces them out to this value. % is relative */
+	text-align: center;
+	border: 2px dashed #ffffff;
+}
+
+nav a { 
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+	font-style: bold;
+	transition: .5s;
+}
+
+nav a:hover {
+	color: #7c7979;
+}
+
+.header {
+	padding: 100px;
+	background-image: url("../images/ocean-sunset.jpg");
+	background-size: cover; /* will stretch out image to fill page if image is too small*/ 
+	background-position: center;
+	text-align: center;
+	font-family: times;
+	font-style: italic;
+}
