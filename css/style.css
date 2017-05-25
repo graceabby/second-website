@@ -48,3 +48,45 @@ nav a:hover {
 	font-family: times;
 	font-style: italic;
 }
+
+.main-content {
+	background-color: #ff9b9b;
+	padding: 10px;
+	margin: 10px;
+}
+
+.img-50 {
+	width: 50%;
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+
+.sub-content {
+	background-color: #ff9b9b;
+	padding: 10px;
+	margin: 10px;
+}
+h2 {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
