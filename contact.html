@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Contact Me</title>
+	<title>My second website - contact</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -13,10 +13,34 @@
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
+	<div class="header">
+		<h1>Contact</h1>
+	</div>
+	<section class="main-content">
+		<h2 class= "center-text"> Send a Message</h2>
+		<form>
+	<!--	<form method="post" action="process.php"> This is for future code-->
+			<label for="form-name">Name: </label>
+				<input type="text" name="name" placeholder="Name" id="form-name">
+
+			<label for="form-email"> Email: </label>
+				<input type="text" name="email" placeholder="Email" id="form-email">
+			
+			<label for="form-subject">Subject: </label>
+				<input type="text" name='subject' placeholder="Subject" id="form-subject">
+
+			<label>
+			Message: <br>
+				<textarea name="message" placeholder="Message"></textarea>
+			</label>
+			<label>
+				<input type="radio" name="subscribe" value="yes"> Yes, I want more email! <!-- radio boxes allow for checking boxes but only one option or the other. If you want multiple boxes you switch the type to checkbox -->
+			</label>
+			<label>
+				<input type="radio" name="subscribe" value="no"> No, I don't want email.
+			</label>
+			<button type="submit">Submit</button>
+		</form>
+	</section>
 </body>
-	<h1 class="center-text">Contact</h1>
-	<ul class="text-30">
-		<li>Phone: 123-456-7890</li>
-		<li>Email: abc@123.com</li>
-	</ul>
-</html>
+	</html>
