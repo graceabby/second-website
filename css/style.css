@@ -61,7 +61,10 @@ nav a:hover {
 .main-content {
 	background-color: #ff9b9b;
 	padding: 10px;
-	margin: 10px;
+	width: 48%;
+	float:left;
+	margin: 1%;
+	height: 420px;
 }
 
 .img-50 {
@@ -72,13 +75,21 @@ nav a:hover {
 }
 
 .sub-content {
-	background-color: #ff9b9b;
+	background-color: lavender;
 	padding: 10px;
-	margin: 10px;
+	width: 48%;
+	float: left;
+	margin: 1%;
+	height: 420px;
 }
-
 /* This is style affecting the content on the Contact page 
 ======================================================*/
+
+.main-contact {
+	background-color: #ff9b9b;
+	height: 450px;
+	width: 50%;
+}
 
 label {
 	display: block;
@@ -86,10 +97,9 @@ label {
 }
 
 input {
-	margin: 0px 0px 10px 75px;
+	margin: 0px 0px 0px 75px;
 	padding: 10px;
 	background-color: lavender;
-
 }
 
 textarea {
@@ -103,6 +113,7 @@ button {
 	background-color: lavender;
 	padding: 10px 25px;
 	margin: 10px 75px;
+
 }
 /* These are Utility Classes 
 =================================================== */
@@ -127,7 +138,18 @@ button {
 	font-family: times;
 }
 
+.col-1-4 {
+	float:left;
+	width: 23%;
+	background-color: #ff9b9b;
+	padding: 10px;
+	height: 500px;
+	margin: 1%
+}
 
+div h2{
+	text-align: center;
+}
 
 
 
